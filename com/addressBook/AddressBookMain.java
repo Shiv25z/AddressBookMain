@@ -47,22 +47,22 @@ public class AddressBookMain {
                     String lastname = sc.nextLine();
                     contact.set(1, lastname);
                     break;
-                case "city":
+                case "Address":
                     System.out.println("Enter new Address : ");
                     String address = sc.nextLine();
                     contact.set(2, address);
                     break;
-                case "state":
+                case "State":
                     System.out.println("Enter the name to edit  : ");
                     String state = sc.nextLine();
                     contact.set(3, state);
                     break;
-                case "zip":
+                case "ZIP":
                     System.out.println("Enter the name to edit  : ");
                     String zip = sc.nextLine();
                     contact.set(4, zip);
                     break;
-                case "phone":
+                case "Phone":
                     System.out.println("Enter the name to edit  : ");
                     String phone = sc.nextLine();
                     contact.set(5, phone);
